@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <!--Ion Icons-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Space Roamer</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <nav>
+          <div class="menu-icons open">
+            <i class="icon ion-md-menu"></i>
+          </div>
+
+          <ul class="nav-list">
+            <div class="menu-icons close">
+              <i class="icon ion-md-close"></i>
+            </div>
+            <li class="nav-item">
+              <a href="#" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="#maps" class="nav-link">MAPS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#news" class="nav-link">NEWS</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="bg-filter"></div>
+      <div class="mm-container">
+        <div class="main-message">
+          <p class="mm-coordinates">01 &nbsp; &#8212; &nbsp; 03</p>
+          <h1>Space Roamer</h1>
+          <p>
+            Explore the mysteries of the universe with Space Roamer. Be
+            up-to-date with the latest news straight from NASA. View and
+            interact with maps of the moon, mars and vesta.
+          </p>
+        </div>
+      </div>
+      <div class="side-nav">
+        <ul class="side-nav-list">
+          <a href="#" style="color: #fff" class="side-link"
+            >01 &nbsp; &#8212; &nbsp;</a
+          >
+          <li class="side-link empty">&#8212; &nbsp;</li>
+          <a href="#about" class="side-link">02 &nbsp; &#8212; &nbsp;</a>
+          <li class="side-link empty">&#8212; &nbsp;</li>
+          <a href="#maps" class="side-link">03 &nbsp; &#8212; &nbsp;</a>
+          <li class="side-link empty">&#8212; &nbsp;</li>
+          <a href="#news" class="side-link">04 &nbsp; &#8212; &nbsp;</a>
+        </ul>
+      </div>
+    </section>
+    <div class="transition"></div>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h1 class="section-header">About</h1>
+      <div class="container">
+        <div class="content-container hidden" id="content-1">
+          <i class="fas fa-compass"></i>
+          <div class="text-container">
+            <h2 class="description-header">Discover</h2>
+            <p>
+              The beauty of the universe awaits. Stay up to date with NASA'S
+              daily astronomy articles right here on Space Roamer or explore
+              different planets.
+            </p>
+          </div>
+        </div>
+        <div class="content-container hidden" id="content-2">
+          <i class="fas fa-rocket"></i>
+          <div class="text-container">
+            <h2 class="description-header">Explore</h2>
+            <p>
+              With Space Roamer you can now explore the Moon, Mars and Vesta and
+              that without a space shuttle.
+            </p>
+          </div>
+        </div>
+        <div class="content-container hidden" id="content-3">
+          <i class="fas fa-fingerprint"></i>
+          <div class="text-container">
+            <h2 class="description-header">Interact</h2>
+            <p>
+              Look at all the Apollo landing sites on the Moon, view different
+              craters on mars or explore the surface of Vesta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="transition"></div>
+    <!-- Maps Section -->
+    <section class="maps" id="maps">
+      <h1 class="section-header">Maps</h1>
+      <div class="card-container">
+        <div class="planet-card">
+          <div class="card-img-container">
+            <img src="images/moon.png" alt="moon" />
+          </div>
+          <h2 class="description-header">Moon</h2>
+          <p>
+            The Moon is an astronomical body that orbits planet Earth and is
+            Earth's only permanent natural satellite. It is the fifth-largest
+            natural satellite in the Solar System, and the largest among
+            planetary satellites relative to the size of the planet that it
+            orbits (its primary).
+          </p>
+          <button
+            class="card-btn"
+            onclick="window.location.href='maps/moon.html'"
+          >
+            Explore Map
+          </button>
+        </div>
+        <div class="planet-card">
+          <div class="card-img-container">
+            <img src="images/mars.png" alt="mars" />
+          </div>
+          <h2 class="description-header">Mars</h2>
+          <p>
+            Mars is the fourth planet from the Sun and the second-smallest
+            planet in the Solar System after Mercury. In English, Mars carries a
+            name of the Roman god of war, and is often referred to as the "Red
+            Planet" because the reddish iron oxide prevalent on its surface
+            gives it a reddish appearance that is distinctive.
+          </p>
+          <button
+            class="card-btn"
+            onclick="window.location.href='maps/mars.html'"
+          >
+            Explore Map
+          </button>
+        </div>
+        <div class="planet-card">
+          <div class="card-img-container">
+            <img src="images/vesta.jpg" alt="Vesta" />
+          </div>
+          <h2 class="description-header">Vesta</h2>
+          <p>
+            Vesta, minor-planet designation 4 Vesta, is one of the largest
+            objects in the asteroid belt, with a mean diameter of 525 kilometres
+            (326 mi).It was discovered by the German astronomer Heinrich Wilhelm
+            Olbers on 29 March 1807 and is named after Vesta, the virgin goddess
+            of home and hearth from Roman mythology.
+          </p>
+          <button
+            class="card-btn"
+            onclick="window.location.href='maps/vesta.html'"
+          >
+            Explore Map
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- News Section -->
+    <section class="news" id="news">
+      <h2 class="section-header">News</h2>
+      <div class="news-content">
+        <h2 id="date"></h2>
+        <h2 class="description-header" id="target-header"></h2>
+        <div id="target"></div>
+        <div class="api-media-container" id="img-container"></div>
+        <p id="copyright"></p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <h2 class="footer-header">This site is powered by Nasa's awesome API</h2>
+      <div class="footer-container">
+        <div class="info-container">
+          <h2 class="info-header">NASA'S API LIST</h2>
+          <p>
+            NASA encourages developers to leverage their apis and use them in
+            their applications!
+          </p>
+          <a href="https://api.nasa.gov/"
+            >Learn more <i class="fas fa-caret-right"></i
+          ></a>
+        </div>
+        <div class="info-container">
+          <h2 class="info-header">ESRI API</h2>
+          <p>
+            Official page for the rendering api I used to map out NASA's WMTS
+            layers.
+          </p>
+          <a href="https://www.esri.com/en-us/home"
+            >Learn more <i class="fas fa-caret-right"></i
+          ></a>
+        </div>
+        <div class="info-container">
+          <h2 class="info-header">NASA'S OPEN SOURCE PAGE</h2>
+          <p>Want to contribute to the wonders of space exploration?</p>
+          <a href="https://www.nasa.gov/open/open-source-development.html"
+            >Learn more <i class="fas fa-caret-right"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy;2021 Code and Design by <a href="#">Deniz Halimi</a>. Data
+          provided by <a href="https://api.nasa.gov/">NASA</a>. Inspired by
+          <a href="http://spacexplorer.xyz/">Space Xplorer</a>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/scroll.js"></script>
+  </body>
+</html>
