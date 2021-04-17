@@ -650,4 +650,16 @@ footer {
   #content-3 {
     margin: 0 5rem;
   }
+
+  .api-media-container iframe {
+    width: 45rem;
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .api-media-container iframe {
+    width: 28rem;
+    height: 16rem;
+  }
 }
